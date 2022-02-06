@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1751c5fa.css",
+    "main.js": "/static/js/main.0796a709.js",
+    "static/js/787.164e5f1c.chunk.js": "/static/js/787.164e5f1c.chunk.js",
+    "static/media/LeoProject.svg": "/static/media/LeoProject.8073aa1dd25d4abff16b31f25fcb9f6b.svg",
+    "static/media/CuraProject.svg": "/static/media/CuraProject.a13aa8cfaf30710a5380236e8d02fa28.svg",
+    "static/media/SpaceInvadersProject.svg": "/static/media/SpaceInvadersProject.3ab3e51d62f9a92b95040f2157f1f012.svg",
+    "static/media/arroba.png": "/static/media/arroba.8280669376473986dca5.png",
+    "static/media/github.png": "/static/media/github.6c5d8675c0948005e707.png",
+    "index.html": "/index.html",
+    "static/media/Blue.svg": "/static/media/Blue.d0045d8be726ec81e80e78e5e11008d2.svg",
+    "static/media/Green.svg": "/static/media/Green.24f076d5d0ba665827b2871ae9abdb7f.svg",
+    "static/media/Pink.svg": "/static/media/Pink.d6c30dbb01e2bff3a9b4ed77d7ec7f56.svg",
+    "static/media/Purple.svg": "/static/media/Purple.e28266e53e57e2a954d3a63bfc119808.svg",
+    "main.1751c5fa.css.map": "/static/css/main.1751c5fa.css.map",
+    "main.0796a709.js.map": "/static/js/main.0796a709.js.map",
+    "787.164e5f1c.chunk.js.map": "/static/js/787.164e5f1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1751c5fa.css",
+    "static/js/main.0796a709.js"
+  ]
+}
