@@ -5,9 +5,6 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
-import linkedin from '../images/linkedin.png'
-import github from '../images/github.png'
-import email from '../images/arroba.png'
 
 //when you use useState, make sure to capitalize the components (About)
 
@@ -179,45 +176,8 @@ const About = () => { //gonna comment the fuck outta this
                     </AccordionDetails>
                 </StyledAccordion>
             </div>
-            <div className = "footer">
-                <h2>Let's Connect!</h2>
-                <div className = "button">
-                    <div className = "githubButton">
-                        <a href = "https://github.com/lisazhao30" target="_blank"><img src={github}></img></a>
-                    </div>
-                    <div className = "linkedinButton">
-                        <a href = "https://www.linkedin.com/in/lisazhao03/" target="_blank"><img src={linkedin}></img></a>
-                    </div>
-                    <div className = "emailButton">
-                        <a href = "mailto:l239zhao@uwaterloo.ca" target="_blank"><img src={email}></img></a>
-                    </div>
-                </div>
-                <div className = "credit">
-                        <a href = "https://josephlamonica.me/" target="_blank">This website was inspired by Joseph Lamonica</a>
-                </div>
-            </div>
         </div>       
     );
 }
-
-
-/*const DropdownInfo = () => {
-    <div className = "experienceDropdown">
-        <button onClick = {onClick} className = "dropdownButton">Experience</button>
-        {hideDropdownInfo ? <DropdownInfo /> : null}
-    </div>
-    return (
-    <div className = "dropdownInfo">
-        <div className = "EntSoc">
-            <h4>Full Stack Developer - UW Entrepreneurship Society</h4>
-            <h5>January 2022 - Current</h5>
-        </div>
-        <div className = "Polaris">
-            <h4>QA Developer - Polaris Intelligence</h4>
-            <h5>January 2022 - April 2022</h5>
-        </div>
-    </div>
-    )
-} */
 
 export default About
