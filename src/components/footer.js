@@ -8,18 +8,12 @@ const Footer = () => {
         <div className = "footer">
             <h2>Let's Connect!</h2>
             <div className = "button">
-                <div className = "githubButton">
-                    <a href = "https://github.com/lisazhao30" target="_blank"><img src={github}></img></a>
-                </div>
-                <div className = "linkedinButton">
-                    <a href = "https://www.linkedin.com/in/lisazhao03/" target="_blank"><img src={linkedin}></img></a>
-                </div>
-                <div className = "emailButton">
-                    <a href = "mailto:l239zhao@uwaterloo.ca" target="_blank"><img src={email}></img></a>
-                </div>
+                <a href = "https://github.com/lisazhao30" target="_blank"><img src={github}></img></a>
+                <a href = "https://www.linkedin.com/in/lisazhao03/" target="_blank"><img src={linkedin}></img></a>
+                <a href = "mailto:l239zhao@uwaterloo.ca" target="_blank"><img src={email}></img></a>
             </div>
             <div className = "credit">
-                    <a href = "https://josephlamonica.me/" target="_blank">This website was inspired by Joseph Lamonica</a>
+                <a href = "https://josephlamonica.me/" target="_blank">This website was inspired by Joseph Lamonica</a>
             </div>
         </div>
     )

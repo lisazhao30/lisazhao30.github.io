@@ -136,8 +136,9 @@
 }
 
 .infoText {
-    position: relative;
-    left: 52.5vw;
+    width: 70vw;
+    float: right;
+    text-align: center;
 }
 
 /* @media allows you to resize css elements for a certain screen width */
@@ -165,6 +166,12 @@
 
     .square4{
         transform: scale(1.2);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .grid {
+        transform: scale(0.8);
     }
 }
 

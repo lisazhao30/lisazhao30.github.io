@@ -38,14 +38,19 @@
 
 .buttons {
     margin-top: 18vh;
-    margin-left: 1vw;
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
     column-gap: 2vw;
 }
 
 @media screen and (min-width: 1980px) {
     body {
         overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .buttons {
+        margin-top: 13vh;
     }
 }

@@ -33,7 +33,7 @@ const sidebar = () => {
                         <StyledButton variant = "outlined">Home</StyledButton>
                     </Link>
                     <Link component = {RouterLink} to="/about" underline = "none">
-                        <StyledButton variant = "outlined">About Me</StyledButton>
+                        <StyledButton variant = "outlined">About</StyledButton>
                     </Link>
                     <Link underline = "none" target="_blank" rel="noreferrer"
                     href = "https://drive.google.com/file/d/1ra5IeGaLx-P8MPEIcVfYoGeE-Zi7ZJba/view?usp=sharing"><StyledButton variant = "outlined">Resume</StyledButton></Link>
