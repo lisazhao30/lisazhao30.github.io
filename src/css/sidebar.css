@@ -54,3 +54,29 @@
         margin-top: 13vh;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .rectangle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 18vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    .text p {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+}

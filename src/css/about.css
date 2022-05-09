@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
 
-body {
-    overflow-x: hidden;
-}
-
 .accordion {
-    position: relative;
-    padding-top: 3vh;
-    left: 31.5vw;
-    padding-bottom: 44vh;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    float: right;
+    align-items: center;
+    margin-top: 3vh;
 }
 
+@media screen and (max-width: 420px) {
+    .accordion {
+        width: 100vw;
+    }
+}

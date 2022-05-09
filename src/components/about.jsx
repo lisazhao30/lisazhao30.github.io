@@ -6,22 +6,14 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
 
-//when you use useState, make sure to capitalize the components (About)
-
-const About = () => { //gonna comment the fuck outta this
-    /*const [hideDropdownInfo, setDropdownInfo] = useState(false);
-    const onClick = () => {
-        if (hideDropdownInfo === false) {
-            setDropdownInfo(true)
-        }
-        else {
-            setDropdownInfo(false)
-        }
-    }*/
+const About = () => { 
 
     const StyledAccordion = styled(Accordion)({
         width: '67vw',
         color: '#FFFFFF',
+        ['@media screen and (max-width: 420px)']: {
+            width: '90vw'
+        }
     });
 
     const HeaderTypography = styled(Typography)({
@@ -74,13 +66,13 @@ const About = () => { //gonna comment the fuck outta this
                             Languages
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            Python, Javascript, C++, HTML/CSS
+                            Javascript/TypeScript, HTML, CSS, Python, C++, Bash
                         </ParagraphTypography>
                         <SubHeaderTypography>
                             Frameworks
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            React, Node.js, Express, MongoDB
+                            React, Node.js, Express, MongoDB, Chart.js, MUI
                         </ParagraphTypography>
                         <SubHeaderTypography>
                             Design
@@ -117,7 +109,7 @@ const About = () => { //gonna comment the fuck outta this
                             January 2022<br></br>
                         </ParagraphTypography>
                         <SubHeaderTypography>
-                            QA Developer –– Polaris Intelligence
+                            QA Analyst and Web Developer –– Polaris Intelligence
                         </SubHeaderTypography>
                         <ParagraphTypography>
                             January 2022 - April 2022
@@ -143,10 +135,16 @@ const About = () => { //gonna comment the fuck outta this
                     </AccordionSummary>
                     <AccordionDetails>
                         <SubHeaderTypography>
+                            Operations Manager –– Waterloop
+                        </SubHeaderTypography>
+                        <ParagraphTypography>
+                            May 2022 - Present
+                        </ParagraphTypography>
+                        <SubHeaderTypography>
                             Events Planner –– Waterloop
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            January 2022
+                            January 2022 - April 2022
                         </ParagraphTypography>
                     </AccordionDetails>
                 </StyledAccordion>
@@ -171,7 +169,11 @@ const About = () => { //gonna comment the fuck outta this
                     </AccordionSummary>
                     <AccordionDetails>
                         <ParagraphTypography>
-                            I am a 1A Systems Design Engineering at the University of Waterloo.
+                            I am a 1B Systems Design Engineering at the University of Waterloo.
+                        </ParagraphTypography>
+                        <ParagraphTypography>
+                            Relevant coursework: SYDE223 - Data
+                            Structures and Algorithms (C++), SYDE121 - Digital Computation (C++, Python, Bash).
                         </ParagraphTypography>
                     </AccordionDetails>
                 </StyledAccordion>
