@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a7ede50.css",
-    "main.js": "/static/js/main.fdcb3e50.js",
+    "main.css": "/static/css/main.ff4ca48e.css",
+    "main.js": "/static/js/main.5871e954.js",
     "static/js/787.164e5f1c.chunk.js": "/static/js/787.164e5f1c.chunk.js",
     "static/media/LeoProject.svg": "/static/media/LeoProject.8073aa1dd25d4abff16b31f25fcb9f6b.svg",
+    "static/media/PersonalWebsite.svg": "/static/media/PersonalWebsite.208cb18fe340f90618cc110d17f3cec2.svg",
+    "static/media/EventsPanel.svg": "/static/media/EventsPanel.450092729a40c85fd1b1f393cad42059.svg",
+    "static/media/Algo-Visualizer.svg": "/static/media/Algo-Visualizer.85a11dab1a6bbf2116a4ba1eb23d62aa.svg",
     "static/media/CuraProject.svg": "/static/media/CuraProject.a13aa8cfaf30710a5380236e8d02fa28.svg",
-    "static/media/SpaceInvadersProject.svg": "/static/media/SpaceInvadersProject.3ab3e51d62f9a92b95040f2157f1f012.svg",
+    "static/media/Syde26.svg": "/static/media/Syde26.b5284a0629f48c043f634642b8f7af14.svg",
+    "static/media/SpaceInvaders.svg": "/static/media/SpaceInvaders.e02c0e700cdbcdf2e875692445a9246d.svg",
     "static/media/arroba.png": "/static/media/arroba.8280669376473986dca5.png",
     "static/media/github.png": "/static/media/github.6c5d8675c0948005e707.png",
     "index.html": "/index.html",
-    "static/media/Blue.svg": "/static/media/Blue.d0045d8be726ec81e80e78e5e11008d2.svg",
-    "static/media/Green.svg": "/static/media/Green.24f076d5d0ba665827b2871ae9abdb7f.svg",
-    "static/media/Pink.svg": "/static/media/Pink.d6c30dbb01e2bff3a9b4ed77d7ec7f56.svg",
-    "static/media/Purple.svg": "/static/media/Purple.e28266e53e57e2a954d3a63bfc119808.svg",
-    "main.0a7ede50.css.map": "/static/css/main.0a7ede50.css.map",
-    "main.fdcb3e50.js.map": "/static/js/main.fdcb3e50.js.map",
+    "main.ff4ca48e.css.map": "/static/css/main.ff4ca48e.css.map",
+    "main.5871e954.js.map": "/static/js/main.5871e954.js.map",
     "787.164e5f1c.chunk.js.map": "/static/js/787.164e5f1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7ede50.css",
-    "static/js/main.fdcb3e50.js"
+    "static/css/main.ff4ca48e.css",
+    "static/js/main.5871e954.js"
   ]
 }
