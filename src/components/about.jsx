@@ -66,19 +66,19 @@ const About = () => {
                             Languages
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            Javascript/TypeScript, HTML, CSS, Python, C++, Bash
+                            Javascript/TypeScript, Python, SQL, HTML, CSS, C++, Bash
                         </ParagraphTypography>
                         <SubHeaderTypography>
                             Frameworks
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            React, Node.js, Express, MongoDB, Chart.js, MUI
+                            React, Jest, Node.js, Express, MongoDB, Flask, Chart.js, MUI
                         </ParagraphTypography>
                         <SubHeaderTypography>
-                            Design
+                            Tools
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            Figma, Adobe Premiere Pro, Adobe Photoshop
+                            PostgreSQL, GraphQL, Figma
                         </ParagraphTypography>
                     </AccordionDetails>
                 </StyledAccordion>
@@ -103,10 +103,16 @@ const About = () => {
                     </AccordionSummary>
                     <AccordionDetails>
                         <SubHeaderTypography>
+                            Software Engineering Intern –– View the Space
+                        </SubHeaderTypography>
+                        <ParagraphTypography>
+                            September 2022 - December 2022
+                        </ParagraphTypography>
+                        <SubHeaderTypography>
                             Full Stack Developer –– UW Entrepreneurship
                         </SubHeaderTypography>
                         <ParagraphTypography>
-                            January 2022<br></br>
+                            January 2022 - December 2022 <br></br>
                         </ParagraphTypography>
                         <SubHeaderTypography>
                             QA Analyst and Web Developer –– Polaris Intelligence
@@ -169,11 +175,11 @@ const About = () => {
                     </AccordionSummary>
                     <AccordionDetails>
                         <ParagraphTypography>
-                            I am a 1B Systems Design Engineering at the University of Waterloo.
+                            I am a 2A Systems Design Engineering at the University of Waterloo.
                         </ParagraphTypography>
                         <ParagraphTypography>
                             Relevant coursework: SYDE223 - Data
-                            Structures and Algorithms (C++), SYDE121 - Digital Computation (C++, Python, Bash).
+                            Structures and Algorithms (C++), SYDE121 - Digital Computation (C++, Python).
                         </ParagraphTypography>
                     </AccordionDetails>
                 </StyledAccordion>

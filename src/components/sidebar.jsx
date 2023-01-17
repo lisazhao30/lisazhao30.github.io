@@ -23,7 +23,7 @@ const sidebar = () => {
                 <div className = "text">
                     <h1>Hi, I'm Lisa!</h1>
                     <p className = "intro-text">I am...</p>
-                    <p className = "details">• A 1B Systems Design Engineering student at the University of Waterloo. 
+                    <p className = "details">• A 2A Systems Design Engineering student at the University of Waterloo. 
                     <br></br><br></br>• Interested in software development.
                     <br></br><br></br>• Passionate about using technology to create beneficial systems for the greater good.
                     </p>
@@ -35,8 +35,6 @@ const sidebar = () => {
                         <Link component = {RouterLink} to="/about" underline = "none">
                             <StyledButton variant = "outlined">About</StyledButton>
                         </Link>
-                        <Link underline = "none" target="_blank" rel="noreferrer"
-                        href = "https://drive.google.com/file/d/1vruM-Y5pLV-tjK4j7BXBBwzLvwt8UcTT/view?usp=sharing"><StyledButton variant = "outlined">Resume</StyledButton></Link>
                     </div>
             </div>
     )

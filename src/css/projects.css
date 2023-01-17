@@ -2,21 +2,24 @@
 
 .newGrid {
     display: flex;
-    width: 70vw;
+    width: 69vw;
     float: right;
+    justify-content: center;
 }
 
 .leftColumn {
     display: flex;
-    width: 35vw;
+    align-items: center;
+    width: 33vw;
     flex-direction: column;
-    margin: 5vh 0 0 3vw;
+    margin-top: 5vh;
     row-gap: 5vh;
 }
 
 .rightColumn {
     display: flex;
-    width: 35vw;
+    align-items: center;
+    width: 33vw;
     flex-direction: column;
     margin-top: 5vh;
     row-gap: 5vh;
@@ -212,5 +215,15 @@ p {
     
     .infoText {
         width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .leftColumn {
+        width: 26vw;
+    }
+    
+    .rightColumn {
+        width: 26vw;
     }
 }
