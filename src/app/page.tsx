@@ -213,7 +213,6 @@ export default function Home() {
                   background: "rgba(255, 255, 255, 0.9)",
                   border: `1px solid ${theme.colors.gray[2]}`,
                   borderRadius: theme.radius.md,
-                  marginBottom: theme.spacing.xl,
                 }}
               >
                 <Text size="sm" color="dimmed" style={{ lineHeight: 1.6 }}>
