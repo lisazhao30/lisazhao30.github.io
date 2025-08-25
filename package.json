@@ -2,7 +2,7 @@
   "name": "lisa-zhao-website-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lisazhao30.github.io/lisazhao30.github.io",
+  "homepage": "https://lisazhao30.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
